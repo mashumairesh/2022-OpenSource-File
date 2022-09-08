@@ -1,4 +1,4 @@
-# 2022-OpenSource-File
+# 2022-OpenSource-Fall
 오픈소스 이해
 
 ## 리눅스 커맨드라인 기초
@@ -12,7 +12,7 @@
 -HOW TO USE VIM-
   
 ```bash
-vim <FileName.FileType> // <FileName.FileType> 파일을 vim 에디터로 열기
+vim <FileName.Extension> // <FileName.Extension> 파일을 vim 에디터로 열기
 ```
 
 - 파일을 처음에 열면 명령모드로 진입
@@ -23,3 +23,18 @@ vim <FileName.FileType> // <FileName.FileType> 파일을 vim 에디터로 열기
     - 저장하기 > :w Write
     - 나오기 > :q Quit
     - 저장하고 나오기 > :wq Write and Quit
+
+### How to Solve Troubleshooting when creating swap files
+#### 스왑파일이 생기는 경우
+1. 두 응용프로그램에서 하나의 파일을 동시에 수정
+2. 크래시 때문에 파일이 비 정상적으로 닫힌 경우
+
+#### 해결방법
+Recorvery Mode를 이용하여 수정중인 파일을 복구 뒤 Swap File을 삭제.
+```bash
+vim -r <FileName.Extension>
+```
+
+
+
+
