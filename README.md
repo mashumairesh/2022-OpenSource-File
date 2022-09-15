@@ -35,6 +35,6 @@ Recorvery Mode를 이용하여 수정중인 파일을 복구 뒤 Swap File을 �
 vim -r <FileName.Extension>
 ```
 
+## git
 
-
-
+> 대표적으로 쓰이는 버전 관리 시스템(Version Control System, VCS)
